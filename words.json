@@ -1,0 +1,112 @@
+{
+  "easy": [
+    {
+      "word": "car",
+      "hint": "A vehicle with four wheels"
+    },
+    {
+      "word": "donkey",
+      "hint": "A long-eared animal known for its bray"
+    },
+    {
+      "word": "xerox",
+      "hint": "A machine that makes copies"
+    },
+    {
+      "word": "computer",
+      "hint": "A device for processing information"
+    },
+    {
+      "word": "desktop",
+      "hint": "A surface for working on a computer"
+    },
+    {
+      "word": "hangman",
+      "hint": "The game you're playing right now"
+    },
+    {
+      "word": "answer",
+      "hint": "The solution to a question"
+    },
+    {
+      "word": "wrong",
+      "hint": "The opposite of correct"
+    }
+  ],
+  "medium": [
+    {
+      "word": "animal",
+      "hint": "A living creature"
+    },
+    {
+      "word": "message",
+      "hint": "A communication sent from one person to another"
+    },
+    {
+      "word": "wallpaper",
+      "hint": "A decorative covering for walls"
+    },
+    {
+      "word": "nationality",
+      "hint": "The status of belonging to a particular nation"
+    },
+    {
+      "word": "engineering",
+      "hint": "The branch of science that deals with the design and construction of machines"
+    },
+    {
+      "word": "statement",
+      "hint": "A declaration of something"
+    },
+    {
+      "word": "forest",
+      "hint": "A large area of trees"
+    },
+    {
+      "word": "hardware",
+      "hint": "The physical parts of a computer"
+    }
+  ],
+  "hard": [
+    {
+      "word": "elevator",
+      "hint": "A machine that transports people vertically"
+    },
+    {
+      "word": "submarine",
+      "hint": "A vessel that travels underwater"
+    },
+    {
+      "word": "chess",
+      "hint": "A board game played with pieces that move in different ways"
+    },
+    {
+      "word": "resistance",
+      "hint": "The opposition to something"
+    },
+    {
+      "word": "matrix",
+      "hint": "A rectangular array of numbers or symbols"
+    },
+    {
+      "word": "function",
+      "hint": "A set of actions that perform a specific task"
+    },
+    {
+      "word": "laser",
+      "hint": "A device that produces a focused beam of light"
+    },
+    {
+      "word": "mechanism",
+      "hint": "A system of parts that work together to produce a result"
+    },
+    {
+      "word": "electricity",
+      "hint": "A form of energy that can be used to power devices"
+    },
+    {
+      "word": "transistor",
+      "hint": "A semiconductor device that amplifies or switches electronic signals"
+    }
+  ]
+}
