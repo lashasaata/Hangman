@@ -5,9 +5,10 @@ def Hangman():
     print("Wellcome to Hangman game!")
     print("Choose the difficulty level...\n==============================\n || Hard || Medium || Easy ||\n------------------------------")
     
-    game_lvl = input("Set the level: ").lower()
+    game_lvl = input("Set the level: ").strip().lower()
+
     while game_lvl not in ("hard", "medium", "easy"):
-        game_lvl = input("Choose the level from the menu!: ").lower()
+        game_lvl = input("Choose the level from the menu!: ").strip().lower()
     print()
 
     with open("Hangman_Game/words.json", mode="r", encoding="utf-8") as file:
@@ -19,7 +20,13 @@ def Hangman():
         word_index = random.randint(0, len(words)-1)
         guessing_word = words[word_index]["word"].lower()
 
-        lifes = 10
+        if lvl == "easy":
+            lifes = 8
+        elif lvl == "medium":
+            lifes = 7
+        else:
+            lifes = 6
+
         guessed_alpabets = []
         printing = []
 
@@ -32,7 +39,7 @@ def Hangman():
             life = lifes
 
             #if player has less than 4 lives, it will give a hint
-            if life > 3:
+            if life > 2:
                 print(f"You have {life} lives.")
             else:
                 print(f"Because you have left {life} lives, we have a hint for you.\n")
