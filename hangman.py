@@ -11,7 +11,7 @@ def Hangman():
         game_lvl = input("Choose the level from the menu!: ").strip().lower()
     print()
 
-    with open("Hangman_Game/words.json", mode="r", encoding="utf-8") as file:
+    with open("mid-term/Hangman_Game/words.json", mode="r", encoding="utf-8") as file:
         import json, random
         data = json.load(file)
 
@@ -100,9 +100,9 @@ def Hangman():
         print(f"====================================\n|| Exit || Continue || Difficulty ||\n------------------------------------")
         print(f"Your score: {guessed_words}\n")
 
-        next = input("Choose next move from the bar!: ")
-        while next.lower() not in ("exit", "continue", "difficulty"):
-            next = input("Choose next move only from the bar!: ")
+        next = input("Choose next move from the bar!: ").strip().lower()
+        while next not in ("exit", "continue", "difficulty"):
+            next = input("Choose next move only from the bar!: ").strip().lower()
         
         if next == "exit":
             print(f"Game over, you have guessed {guessed_words} words. Good luck.")
